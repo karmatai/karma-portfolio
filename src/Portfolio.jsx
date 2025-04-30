@@ -98,7 +98,7 @@ export default function Portfolio() {
           <Card>
             <CardContent className="p-4">
               <h3 className="text-xl font-semibold mb-2">AI Crop Analysis</h3>
-              <a href="https://github.com/karmatai/Crop" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/karmatai/Crop༧" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5 text-white hover:text-gray-300" />
               </a><p className="text-sm">AI system for real-time crop quality analysis using computer vision and transfer learning.</p>
             </CardContent>

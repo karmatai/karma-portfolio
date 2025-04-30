@@ -66,10 +66,43 @@ export default function Portfolio() {
       <section className="p-6 md:p-12" id="projects">
         <h2 className="text-3xl font-semibold mb-4">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <Card><CardContent className="p-4"><h3 className="text-xl font-semibold mb-2">Drangtsang</h3><p className="text-sm">Community-based Tibetan music lyric database built with React, Firebase & MUI.</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h3 className="text-xl font-semibold mb-2">Sherabling LMS</h3><p className="text-sm">Library Management System with React, Django REST API and MySQL backend.</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h3 className="text-xl font-semibold mb-2">Shaeja</h3><p className="text-sm">Voice-activated Tibetan prayer search site using Monlam AI API and voice recognition.</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h3 className="text-xl font-semibold mb-2">AI Crop Analysis</h3><p className="text-sm">AI system for real-time crop quality analysis using computer vision and transfer learning.</p></CardContent></Card>
+        <Card>
+            <CardContent className="p-4">
+              <div className="flex justify-between items-center mb-2">
+                <h3 className="text-xl font-semibold">Drangtsang</h3>
+                <a href="https://github.com/karmatai/drangtsang" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5 text-white hover:text-gray-300" />
+                </a>
+              </div>
+              <p className="text-sm">Community-based Tibetan music lyric database built with React, Firebase & MUI.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <h3 className="text-xl font-semibold mb-2">Sherabling LMS</h3>
+              <a href="https://github.com/karmatai/drangtsang" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5 text-white hover:text-gray-300" />
+              </a>
+              <p className="text-sm">Library Management System with React, Django REST API and MySQL backend.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <h3 className="text-xl font-semibold mb-2">Shaeja</h3>
+              <a href="https://github.com/karmatai/Shaeja" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5 text-white hover:text-gray-300" />
+              </a>
+              <p className="text-sm">Voice-activated Tibetan prayer search site using Monlam AI API and voice recognition.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="p-4">
+              <h3 className="text-xl font-semibold mb-2">AI Crop Analysis</h3>
+              <a href="https://github.com/karmatai/Crop" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5 text-white hover:text-gray-300" />
+              </a><p className="text-sm">AI system for real-time crop quality analysis using computer vision and transfer learning.</p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 

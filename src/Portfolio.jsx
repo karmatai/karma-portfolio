@@ -43,7 +43,7 @@ export default function Portfolio() {
           <a href="#projects">
             <Button className="mr-4">View Projects</Button>
           </a>
-          <a href="/karma-tashi-cv.pdf" download>
+          <a href="https://drive.google.com/file/d/1bkmTxt5kKo6kGColAEcp8D6HsQO6DwDr/view?usp=sharing" download>
             <Button variant="outline">Download CV</Button>
           </a>
         </div>
